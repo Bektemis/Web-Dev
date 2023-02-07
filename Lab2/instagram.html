@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <meta content="instagram login page">
+        <title>Instagram Login Page</title>
+    </head>
+    <style>
+        body{
+            background-color: rgb(250,250,250);
+        }
+         #login_box {
+            width: 330px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 1px solid rgb(230,230,230);
+            border-radius: 1px;
+            margin: 10px;
+            padding: 10px;
+            position:relative;
+            left:690px;
+            top:30px;
+        }
+        #login_box input {
+            width: 280px;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 12px;
+            box-sizing: border-box;
+            border: 1px solid #eeebeb;
+            outline: none;
+        }
+
+        #login_button{
+            background-color: rgb(77, 181, 249);
+            color:white;
+            border-radius: 8px;
+        }
+        .separator {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: rgb(162, 162, 162);
+        margin-top: 6px;
+        }
+
+         .line {
+        height: 1px;
+        width: 100%;
+        background-color: rgb(220, 220, 220);
+        }
+        a{
+            text-decoration: none;
+            color:rgb(64, 89, 120)
+        }
+        .signup{
+            color:rgb(84, 152, 213);
+        }
+        .main_image{
+            position:absolute;
+            left:280px;
+            width: 420px;
+        }
+        .logo{
+            margin:25px;
+        }
+        .get_it_gp{
+            width: 130px;
+            position: relative;
+            left:745px;
+        }
+        .get_it_ms{
+            width: 110px;
+            position: relative;
+            left:750px;
+
+        }
+        .get_it_ms a:hover{
+            cursor: pointer;
+        }
+        .get_it_gp a:hover{
+            cursor: pointer;
+        }
+        #get_app{
+            position: relative;
+            margin-left: 840px;
+            margin-top: 50px;
+        }
+    </style>
+
+    <body>
+        <img class="main_image" src="https://i.ibb.co/0fT7Sp8/photo1675671509.jpg" alt="photo1675671509" border="0">
+        <div class="box">
+        <div id="login_box">
+            <div class="logo">
+                <img src="https://www.edigitalagency.com.au/wp-content/uploads/instagram-logo-text-black-png.png" width="180"> 
+            </div>
+            <form>
+                <input type="text" placeholder="Phone number, usermame, or email"> <br>
+                <input type="password" placeholder="Password"> <br> 
+                <input type="button" id="login_button" value="Log In">
+                <div class="separator">
+                    <div class="line"></div>
+                    <p>OR</p>
+                    <div class="line"></div>
+                </div>
+            </form>
+            <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%2522w3ht251s8nofp171l2xc1kj8ts01izzv24177ewdy1i9bhf0xl0qwm%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_scopes%26locale%3Den_US%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D25a4b639-e8a6-4fa0-8c81-c7ef4b93b750%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%2522w3ht251s8nofp171l2xc1kj8ts01izzv24177ewdy1i9bhf0xl0qwm%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%23_%3D_&display=page&locale=en_US&pl_dbl=0"><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" width="13">Log in with Facebook</a> <br>
+            <a href="https://www.instagram.com/accounts/password/reset/">Forgot password?</a> <br>
+            </div>
+            <div id="login_box">
+                <p>Don't have an account? <a class="signup" href="https://www.instagram.com/accounts/emailsignup/">Sign Up</a></p>
+            </div>
+            <p id="get_app">Get the app.</p>
+            <div>
+            <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3D2C47F21B-0531-4D7E-9341-B7013AF3E312%26utm_content%3Dlo%26utm_medium%3Dbadge"><img src="https://i.ibb.co/Z8YqpJb/google-play-badge-logo-png-transparent-1.png" class="get_it_gp" alt="google-play-badge-logo-png-transparent-1" border="0"></a>
+            <a href="#"><img src="https://i.ibb.co/NWPZMtx/1200px-Get-it-from-Microsoft-Badge-svg.png" class="get_it_ms" alt="1200px-Get-it-from-Microsoft-Badge-svg" border="0"></a>
+            </div>
+        </div>
+    </body>
+</html>
