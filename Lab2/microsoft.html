@@ -39,15 +39,20 @@
                 color:white;
                 position: absolute;
                 left:110px;
-                top:260px;
+                top:220px;
                 font-size: 15px;
                 line-height: 30px;
 
+            }
+            .main_box{
+                text-decoration: none;
+                color:white;
             }
             #main_button {
                 background-color: rgb(0, 103, 184);
                 color:white;
                 padding:13px;
+                border-color: rgb(0, 103, 184);
             }
             #main_button:hover{
                 cursor: pointer;
@@ -78,6 +83,9 @@
                 font-size:16px;
                 line-height: 25px;
             }
+            .blocks a{
+                font-weight: bold;
+            }
             .outlook_img{
                 padding-top: 100px;
                 padding-left:70px;
@@ -86,9 +94,13 @@
                 color:black;
                 position: absolute;
                 left:180px;
-                top:1490px;
+                top:1410px;
                 font-size: 15px;
 
+            }
+            .outlook_link{
+                text-decoration: none;
+                color:black;
             }
             .blocks a{
                 text-decoration: none;
@@ -99,7 +111,7 @@
                 text-decoration: underline;
             }
             .font{
-                font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+                font-family: "Segoe UI","Helvetica Neue","Helvetica","Arial","sans-serif";
             }
 
         </style>
@@ -119,7 +131,7 @@
                 <img src="https://i.ibb.co/4Jw8xzH/icon.jpg" class="icon_img" alt="icon" border="0">
             </div>
         </div>
-        <div class="main">
+        <a class="main_box" href="https://support.microsoft.com/ru-ru/windows#pchealthcheck"><div class="main">
             <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-Windows11-GlobalLaunch:VP4-1399x600" class="main_img" width="100%">
             <div class="main_text">
                 <h1>Разработано для жизни — <br>сегодня и в будущем</h1>
@@ -127,6 +139,7 @@
                 <a href="https://support.microsoft.com/ru-ru/windows#pchealthcheck"><input type="button" id="main_button" value="Проверьте, готов ли ваш ПК"></a>
             </div>
         </div>
+        </a>
         <div class="blocks">
             <div class="block_img1">
                 <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-M365-Icon-Bounce-Word-Merch?wid=297&hei=167&fit=crop"  width="99%">
@@ -150,13 +163,14 @@
                 <a href="https://www.microsoft.com/ru-ru/microsoft-365/onenote/digital-note-taking-app?icid=mscom_marcom_CPH4a_OneNote">Узнать больше ></a>
             </div>
         </div>
-        
+        <a class="outlook_link" href="https://www.microsoft.com/ru-ru/microsoft-365/outlook-mobile-for-android-and-ios?icid=mscom_marcom_MPH1a_OutlookApp">
         <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Hero-MSCOM-Outlook-iOS-Android:VP4-1260x600" class="outlook_img" alt="photo1675736232" width="90%">
         <div class="outlook_text">
             <h1>Outlook для IOS и Android</h1>
             <p>Будьте на связи. Организовывайте. Успевайте <br> больше</p>
             <a href="https://www.microsoft.com/ru-ru/microsoft-365/outlook-mobile-for-android-and-ios?icid=mscom_marcom_MPH1a_OutlookApp"><input type="button" id="main_button" value="Скачать"></a>
         </div>
+        </a>
 
         <div class="blocks">
   
