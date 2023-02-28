@@ -1,0 +1,28 @@
+.image-class {
+  margin-right: 20px;
+  float: left;
+  width: 200px;
+  padding: 10px 10px 5px;
+}
+
+#products {
+  padding: 0px;
+}
+.prod {
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.image-star {
+  width: 115px;
+  margin-left: -10px;
+}
+.like {
+  margin-left: 250px;
+  margin-top: -35px;
+}
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
