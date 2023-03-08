@@ -1,0 +1,5 @@
+<h3 *ngIf="loaded">The photos are loading</h3>
+
+<div *ngFor="let photo of Photos">
+  <img src="{{photo.thumbnailUrl}}">
+</div>
