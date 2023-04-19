@@ -1,0 +1,15 @@
+<button routerLink="/companies">Home</button>
+<h1>{{this.newVacancyCompany}}</h1>
+<ul>
+  <li *ngFor="let vacancy of vacancies">{{this.vacancy.id}}-{{this.vacancy.company}} - {{this.vacancy.name}}, {{this.vacancy.salary}}, {{this.vacancy.description}}
+    <button (click)="onDelete(vacancy.id)">X</button>
+  </li>
+</ul>
+
+<fieldset>
+  <input type="text" placeholder="Name" [(ngModel)]="newVacancyName">
+  <input type="number" placeholder="Salary" [(ngModel)]="newVacancySalary">
+  <input type="text" placeholder="Description" [(ngModel)]="newVacancyDescription">
+  <button (click)="createVacancy()">Add Vacancy</button>
+
+</fieldset>
