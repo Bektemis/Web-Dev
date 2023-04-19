@@ -1,0 +1,37 @@
+<div class="container" style="text-align: center;">
+  <div class="company-header">
+    <h1 class="company-title">Companies</h1>
+    <button class="company-button" (click)="add_company=!add_company">Create company</button>
+  </div>
+  
+  <div *ngIf="add_company" class="company-form">
+    <fieldset>
+      <label class="company-label">Company name</label>
+      <input class="company-input" type="text" [(ngModel)]="new_company_name">
+      <label class="company-label">Company description</label>
+      <input class="company-input" type="text" [(ngModel)]="new_company_description">
+      <label class="company-label">Company city</label>
+      <input class="company-input" type="text" [(ngModel)]="new_company_city">
+      <label class="company-label">Company address</label>
+      <input class="company-input" type="text" [(ngModel)]="new_company_address">
+      <button class="company-submit-button" (click)="addCompany()">Add company</button>
+    </fieldset>
+  </div>
+
+  <ul class="company-list">
+    <li *ngFor="let company of companies" class="company-item">
+      <a class="company-link" (click)="getCompany_vacancies(company)">{{company.name}}</a>
+      <button class="company-delete-button" (click)="deleteCompany(company.id)">Delete</button>
+    </li>
+  </ul>
+
+  <div *ngIf="showCompany_vacancies" class="vacancy-section">
+    <h3 class="vacancy-title">Vacancies</h3>
+    <ul class="vacancy-list">
+      <li *ngFor="let vacancy of company_vacancies" class="vacancy-item">
+        {{vacancy.id}} - {{vacancy.name}} - {{vacancy.description}} - {{vacancy.salary}} - {{vacancy.company.name}}
+        <button class="vacancy-delete-button" (click)="deleteVacancy(vacancy.id)">Delete</button>
+      </li>
+    </ul>
+  </div>
+</div>

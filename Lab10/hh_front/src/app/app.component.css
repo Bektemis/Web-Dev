@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+  }
+  .company-header {
+    margin: auto;
+    width: 50%; 
+  }
+  
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .company-section {
+    margin-top: 1.5rem;
+  }
+  
+  .company-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #0F9D58;
+  }
+  
+  .company-button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #0F9D58;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .company-button:hover {
+    background-color: #0C7A43;
+  }
+  
+  .company-form {
+    margin-top: 1.5rem;
+  }
+  
+  .company-form fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .company-label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #333;
+  }
+  
+  .company-input {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .company-submit-button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #0F9D58;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .company-submit-button:hover {
+    background-color: #0C7A43;
+  }
+  
+  .company-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .company-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+  }
+  
+  .company-item:last-child {
+    border-bottom: none;
+  }
+  
+  .company-link {
+    color: #0F9D58;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .company-link:hover {
+    color: #0C7A43;
+  }
+  
+  .company-delete-button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #EA4335;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .company-delete-button:hover {
+    background-color: #CC3326;
+  }
+  
+  .vacancy-section {
+    margin-top: 1.5rem;
+  }
+  
+  .vacancy-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #0F9D58;
+  }
+  
+  .vacancy-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .vacancy-item {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+  }
+  
+  .vacancy-item:last-child {
+  border-bottom: none;
+  }
+  
+  .vacancy-link {
+  color: #0F9D58;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: all 0.2s ease-in-out;
+  }
+  
+  .vacancy-link:hover {
+  color: #0C7A43;
+  }
+  
+  .vacancy-button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background-color: #0F9D58;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  }
+  
+  .vacancy-button:hover {
+  background-color: #0C7A43;
+  }
+  
+  .form {
+  margin-top: 1.5rem;
+  }
+  
+  .form fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  }
+  
+  .form-label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  display: block;
+  color: #333;
+  }
+  
+  .form-input {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 1rem;
+  }
+  
+  .form-submit-button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background-color: #0F9D58;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  }
+  
+  .form-submit-button:hover {
+  background-color: #0C7A43;
+  }
+  
+  .footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  }
+  
+  .footer-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: all 0.2s ease-in-out;
+  }
+  
+  .footer-link:hover {
+  color: #0F9D58;
+  }
